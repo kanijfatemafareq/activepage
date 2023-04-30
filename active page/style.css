@@ -1,0 +1,60 @@
+
+
+.html{ 
+min-height:200vh;
+ scroll-behavior: smooth;
+ margin:20px;
+ padding:20px;
+ 
+}
+ .container{
+  margin:20px; 
+ padding:10px;
+ background:#fff;
+ box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+ 
+ }
+ 
+  .container .box{
+	  
+	  display:flex;
+  }
+  
+  .container .box .main{
+	  
+	  font-size:30px;
+  }
+  
+  .container .box .menu{
+	  margin-bottom:8px;
+	  
+  }
+  
+  .container .box .pic img{
+	 
+	  border-radius:50%;
+	  height:40vh;
+	  
+  }
+
+ 
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 22px;
+  text-decoration:none;
+  margin-bottom:6px;
+  
+  
+}
+
+ 
+.active, .btn:hover {
+  background-color:#041887eb;
+  color: white;
+  border-radius:5px;
+  
+}
